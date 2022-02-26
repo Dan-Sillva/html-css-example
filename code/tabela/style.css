@@ -1,0 +1,62 @@
+.all {
+    margin-top: 180px;
+    position: relative
+}
+
+table {
+    width: 600px;
+
+    font-family: Arial;
+    font-size: 12px;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+caption {
+    background-color: #0D5188;
+
+    color: #fff;
+    font-weight: bold;
+    line-height: 1px;
+}
+
+thead {
+    background-color: #66C5E3;
+}
+
+tbody {
+    background-color: #C7E7F3;
+}
+
+tbody > tr > .cidade {
+    color: #0D5188;
+    font-weight: bold;  
+}
+
+tbody > tr > .position {
+    background-color:  rgb(163, 162, 162);
+    text-align: center;
+
+    width: 10%;
+}
+
+tbody > tr > .pop {
+    width: 15%;
+}
+
+button {
+    margin-top: 120px;
+    align-items: center;
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
